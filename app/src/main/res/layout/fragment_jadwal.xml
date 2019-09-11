@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.JadwalFragment">
+
+    <include
+        android:id="@+id/itemHari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/item_hari"/>
+
+
+    <TextView
+        android:id="@+id/tidakada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tidak_ada_data"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_jadwal"
+        android:layout_below="@+id/itemHari"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ProgressBar
+        android:id="@+id/pgbar_fragment_jadwal"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <com.rilixtech.materialfancybutton.MaterialFancyButton
+        android:id="@+id/btn_add_jadwal"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:padding="10dp"
+        fancy:mfb_borderWidth="1dp"
+        fancy:mfb_defaultColor="@color/colorPrimary"
+        fancy:mfb_focusColor="@color/colorAccent"
+        fancy:mfb_radius="55dp"
+        fancy:mfb_text="+"
+        fancy:mfb_textSize="20sp"
+        fancy:mfb_textColor="#fff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="15dp"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"/>
+
+
+
+</RelativeLayout>

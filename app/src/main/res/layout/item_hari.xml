@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <com.rilixtech.materialfancybutton.MaterialFancyButton
+            android:id="@+id/semua"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            fancy:mfb_borderWidth="1dp"
+            fancy:mfb_defaultColor="@color/colorAccent"
+            fancy:mfb_focusColor="@color/colorPrimary"
+            fancy:mfb_radius="25dp"
+            fancy:mfb_text="Semua"
+            fancy:mfb_textSize="12sp"
+            fancy:mfb_textColor="#fff"/>
+
+        <com.rilixtech.materialfancybutton.MaterialFancyButton
+            android:id="@+id/ahadPon"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            fancy:mfb_borderWidth="1dp"
+            fancy:mfb_defaultColor="@color/colorAccent"
+            fancy:mfb_focusColor="@color/colorPrimary"
+            fancy:mfb_radius="25dp"
+            fancy:mfb_text="Ahad Pon"
+            fancy:mfb_textSize="12sp"
+            android:layout_marginLeft="10dp"
+            fancy:mfb_textColor="#fff"
+            android:layout_marginStart="10dp" />
+
+        <com.rilixtech.materialfancybutton.MaterialFancyButton
+            android:id="@+id/ahadPahing"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            fancy:mfb_borderWidth="1dp"
+            fancy:mfb_defaultColor="@color/colorAccent"
+            fancy:mfb_focusColor="@color/colorPrimary"
+            fancy:mfb_radius="25dp"
+            fancy:mfb_text="Ahad Pahing"
+            fancy:mfb_textSize="12sp"
+            android:layout_marginLeft="10dp"
+            fancy:mfb_textColor="#fff"
+            android:layout_marginStart="10dp" />
+
+        <com.rilixtech.materialfancybutton.MaterialFancyButton
+            android:id="@+id/ahadWage"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            fancy:mfb_borderWidth="1dp"
+            fancy:mfb_defaultColor="@color/colorAccent"
+            fancy:mfb_focusColor="@color/colorPrimary"
+            fancy:mfb_radius="25dp"
+            fancy:mfb_text="Ahad Wage"
+            fancy:mfb_textSize="12sp"
+            android:layout_marginLeft="10dp"
+            fancy:mfb_textColor="#fff"
+            android:layout_marginStart="10dp" />
+
+        <com.rilixtech.materialfancybutton.MaterialFancyButton
+            android:id="@+id/selasaKliwon"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            fancy:mfb_borderWidth="1dp"
+            fancy:mfb_defaultColor="@color/colorAccent"
+            fancy:mfb_focusColor="@color/colorPrimary"
+            fancy:mfb_radius="25dp"
+            fancy:mfb_text="Selasa Kliwon"
+            fancy:mfb_textSize="12sp"
+            android:layout_marginLeft="10dp"
+            fancy:mfb_textColor="#fff"
+            android:layout_marginStart="10dp" />
+
+        <com.rilixtech.materialfancybutton.MaterialFancyButton
+            android:id="@+id/kamisPahing"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            fancy:mfb_borderWidth="1dp"
+            fancy:mfb_defaultColor="@color/colorAccent"
+            fancy:mfb_focusColor="@color/colorPrimary"
+            fancy:mfb_radius="25dp"
+            fancy:mfb_text="Kamis Pahing"
+            fancy:mfb_textSize="12sp"
+            android:layout_marginLeft="10dp"
+            fancy:mfb_textColor="#fff"
+            android:layout_marginStart="10dp" />
+
+        <com.rilixtech.materialfancybutton.MaterialFancyButton
+            android:id="@+id/khusus"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            fancy:mfb_borderWidth="1dp"
+            fancy:mfb_defaultColor="@color/colorAccent"
+            fancy:mfb_focusColor="@color/colorPrimary"
+            fancy:mfb_radius="25dp"
+            fancy:mfb_text="Khusus"
+            fancy:mfb_textSize="12sp"
+            android:layout_marginLeft="10dp"
+            fancy:mfb_textColor="#fff"
+            android:layout_marginStart="10dp" />
+
+    </LinearLayout>
+
+</HorizontalScrollView>

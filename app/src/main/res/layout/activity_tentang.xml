@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.TentangActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/iconAbout"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            tools:ignore="ContentDescription"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/judulAbout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:layout_below="@+id/iconAbout"
+            android:textSize="26sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/versiAbout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/versi_1_0"
+            android:layout_below="@+id/judulAbout"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+
+    <com.rilixtech.materialfancybutton.MaterialFancyButton
+        android:id="@+id/loginAdmin"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        fancy:mfb_borderWidth="1dp"
+        fancy:mfb_borderColor="@color/colorPrimary"
+        fancy:mfb_defaultColor="@android:color/transparent"
+        fancy:mfb_focusColor="@color/colorPrimary"
+        fancy:mfb_radius="0dp"
+        fancy:mfb_text="Login Admin"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        fancy:mfb_textSize="12sp"
+        fancy:mfb_textColor="@color/colorPrimary"/>
+
+    <com.rilixtech.materialfancybutton.MaterialFancyButton
+        android:id="@+id/logoutAdmin"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        fancy:mfb_borderWidth="1dp"
+        fancy:mfb_borderColor="@color/colorAccent"
+        fancy:mfb_defaultColor="@android:color/transparent"
+        fancy:mfb_focusColor="@color/colorPrimary"
+        fancy:mfb_radius="0dp"
+        fancy:mfb_text="LogOut"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        fancy:mfb_textSize="12sp"
+        fancy:mfb_textColor="@color/colorAccent"
+        android:visibility="gone"/>
+
+</RelativeLayout>

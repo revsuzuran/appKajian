@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.NotifFragment">
+
+    <TextView
+        android:id="@+id/notifText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pemberitahuan"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_margin="10dp"
+        android:gravity="center"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@+id/notifText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?selectableItemBackground"
+        fancy:cardBackgroundColor="#fff"
+        fancy:cardCornerRadius="5dp"
+        android:id="@+id/item_layout"
+        android:layout_margin="10dp"
+        fancy:cardUseCompatPadding="true"
+        fancy:cardElevation="2dp">
+
+        <RelativeLayout android:id="@+id/item_kategori"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/pesan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_margin="10dp"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ProgressBar
+        android:id="@+id/pgbar_fragment_notif"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <com.rilixtech.materialfancybutton.MaterialFancyButton
+        android:id="@+id/btn_edit_notif"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:padding="10dp"
+        fancy:mfb_borderWidth="1dp"
+        fancy:mfb_defaultColor="@color/colorPrimary"
+        fancy:mfb_focusColor="@color/colorAccent"
+        fancy:mfb_radius="55dp"
+        fancy:mfb_text="Edit"
+        fancy:mfb_textSize="12sp"
+        fancy:mfb_textColor="#fff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="15dp"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>

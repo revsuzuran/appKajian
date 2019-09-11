@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/postLayout"
+    android:layout_marginBottom="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?selectableItemBackground"
+        fancy:cardBackgroundColor="#fff"
+        fancy:cardCornerRadius="5dp"
+        android:id="@+id/item_layout_post"
+        fancy:cardUseCompatPadding="true"
+        fancy:cardElevation="2dp">
+
+        <RelativeLayout android:id="@+id/item_kategori"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_height="wrap_content">
+
+           <ImageView
+               android:id="@+id/imgPost"
+               android:layout_width="match_parent"
+               android:layout_height="400dp"
+               android:src="@drawable/amin"/>
+
+            <TextView
+                android:id="@+id/captionPost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_below="@+id/imgPost"
+                android:layout_margin="10dp"
+                android:text="Semoga Kita Bersyukur untuk Hari ini Oke Saudaraku"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

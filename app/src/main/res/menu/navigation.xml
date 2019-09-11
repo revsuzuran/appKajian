@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_satu"
+        android:icon="@drawable/ic_jadwal"
+        android:title="@string/jadwal" />
+
+    <item
+        android:id="@+id/navigation_dua"
+        android:icon="@drawable/ic_post"
+        android:title="@string/post" />
+
+    <item
+        android:id="@+id/navigation_tiga"
+        android:icon="@drawable/ic_notif"
+        android:title="@string/notif" />
+
+</menu>

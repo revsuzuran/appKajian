@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Majelis Al Quran Al Ittihad</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notif">Notif</string>
+    <string name="jadwal">Jadwal</string>
+    <string name="post">Post</string>
+    <string name="versi_1_0">Versi 1.0</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="login_admin">Login Admin</string>
+    <string name="tidak_ada_data">Tidak Ada Data</string>
+    <string name="nama_pemateri">Nama Pemateri</string>
+    <string name="tgl_bln_tahun_31_12_2019">Tgl/Bln/Tahun (ex:31/12/2019)</string>
+    <string name="jam_mulai">Jam Mulai</string>
+    <string name="jam_selesai">Jam Selesai</string>
+    <string name="tempat_ex_rumah_ibu_budi">Tempat (ex:Rumah Ibu Budi)</string>
+    <string name="peta_kajian">Peta Lokasi Majelis</string>
+    <string name="lihat_lokasi_di_google_maps">Lihat lokasi di Google Maps</string>
+    <string name="detail_kajian">Detail Kajian</string>
+    <string name="pemberitahuan">-- Pemberitahuan --</string>
+    <string name="edit_pemberitahuan">Edit Pemberitahuan</string>
+    <string name="pilih_gambar">Pilih Gambar</string>
+    <string name="keterangan">Keterangan</string>
+
+    <string-array name="hari">
+        <item>Pilih Hari</item>
+        <item>Semua</item>
+        <item>Ahad Pon</item>
+        <item>Ahad Pahing</item>
+        <item>Ahad Wage</item>
+        <item>Selasa Kliwon</item>
+        <item>Kamis Pahing</item>
+        <item>Khusus</item>
+    </string-array>
+
+</resources>
